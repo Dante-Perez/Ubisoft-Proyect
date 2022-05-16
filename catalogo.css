@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background: #6be2de;
+}
+
+#fondo{
+    position: absolute;
+    width: 100%; height: 100%;
+}
+
+#fondo2{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 100%;
+}
+
+#fondo3{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 200.05%;
+}
+
+#fondo4{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 300%;
+}
+
+#fondo5{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 400.05%;
+}
+
+#fondo6{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 500.05%;
+}
+
+#fondo7{
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 600.05%;
+}
+
+
+li a:hover {
+    color: #35F2F2;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+nav ul li:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+/* JUEGO 1*/
+
+.fran1 {
+    position: absolute;
+    width: 50%;
+    top: 32%;
+    border: #0669BF solid 10px;
+}
+  
+.img {
+    display: block;
+    width: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008bba75;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.fran1:hover .overlay {
+    height: 100%;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* JUEGO 2*/
+
+.fran2 {
+    position: absolute;
+    width: 50%;
+    top: 100%;
+    right: 0;
+    border: #0669BF solid 10px;
+}
+  
+.fran2:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 3*/
+
+.fran3 {
+    position: absolute;
+    width: 50%;
+    top: 168%;
+    border: #0669BF solid 10px;
+}
+  
+.fran3:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 4*/
+
+.fran4 {
+    position: absolute;
+    width: 50%;
+    top: 236%;
+    right: 0;
+    border: #0669BF solid 10px;
+}
+  
+.fran4:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 5*/
+
+.fran5 {
+    position: absolute;
+    width: 50%;
+    top: 304%;
+    border: #0669BF solid 10px;
+}
+  
+.fran5:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 6*/
+
+.fran6 {
+    position: absolute;
+    width: 50%;
+    top: 372%;
+    right: 0;
+    border: #0669BF solid 10px;
+}
+  
+.fran6:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 7*/
+
+.fran7 {
+    position: absolute;
+    width: 50%;
+    top: 445%;
+    border: #0669BF solid 10px;
+}
+  
+.fran7:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 8*/
+
+.fran8 {
+    position: absolute;
+    width: 50%;
+    top: 513%;
+    border: #0669BF solid 10px;
+    right: 0;
+}
+  
+.fran8:hover .overlay {
+    height: 100%;
+}
+
+/* JUEGO 9*/
+
+.fran9 {
+    position: absolute;
+    border: #0669BF solid 10px;
+    width: 50%;
+    top: 580%;
+}
+  
+.fran9:hover .overlay {
+    height: 100%;
+}
+
+footer{
+    background-color: #35F2F2;
+    width: 1550px; height: 25px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: fuente1;
+}

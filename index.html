@@ -1,0 +1,133 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+    <head>
+        <title>Ubisoft Fan-PAge</title>
+        <meta http-equiv="content-type"; charset="utf-8">
+        <link rel="stylesheet" href="index.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <nav>
+            <div id="logo"></div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="encuesta.php">Encuesta</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="acerca de.html">Acerca De</a></li>
+                <li><a href="https://www.uacj.mx/">UACJ</a></li>            
+            </ul>
+        </nav>
+
+        <section id="slider">
+            <div id="content-images-slider">
+                
+                <div class="image-slider rellax" data-rellax-speed="-10" 
+                style="background-image: url(img/fondo.jpg);"></div>
+                <div id="ac" class="image-slider rellax" data-rellax-speed="-6" 
+                style="background-image: url(img/AC.png);"></div>
+                <div class="text-slider rellax" data-rellax-speed="-25">
+                    <h1 id="slider-text"></h1><br>
+                </div>
+
+                <div id="fc" class="image-slider rellax" data-rellax-speed="-4" 
+                style="background-image: url(img/Fc.png);"></div>
+                <div id="watch" class="image-slider" style="background-image: url(img/w2.png)"></div>
+                <div class="image-slider" style="background-image: url(images/dunas.png)"></div>
+                <div id="logo" class="image-slider" style="background-image: url(img/logo-2.png)"></div>
+            </div>
+        </section>
+        <section id="content">
+            <img id="segundofondo" src="img/otrofondo.png">
+            <h3>texto de ejemplo</h3>
+            <p id="pa1">Empresa desarrolladora y distribuidora de videojuegos francesa, 
+                fundada el 28 de marzo de 1986 en Carentoir, en Bretaña, Francia. Yves 
+                Guillemot, uno de los fundadores, es el actual director ejecutivo y 
+                presidente de la compañía. Las sedes principales se ubican en Montreuil 
+                (Sena-Saint Denis), Francia, y tiene estudios de desarrollo en todo el 
+                mundo.
+            </p>
+
+            <p id="pa2">Responsable de las franquicias y videojuegos exitosos y 
+                conocidos, como Assassin's Creed, Far Cry, Watch Dogs, Rainbow Six, 
+                The Division, Just Dance y Ghost Recon, también ha ayudado a otras 
+                compañías a desarrollar y distribuir sus videojuegos. Actualmente 
+                Ubisoft es la compañía de videojuegos más grande e importante de 
+                Europa y la primera desarrolladora de videojuegos a nivel mundial.
+            </p>
+
+            <ul class="slides">
+                <input type="radio" name="radio-btn" id="img-1" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="img/ad1.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-5" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                    </div>
+                </li>
+    
+                <input type="radio" name="radio-btn" id="img-2" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="img/anuncio1.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                    </div>
+                </li>
+    
+                <input type="radio" name="radio-btn" id="img-3" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="img/anuncio2.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">&#x2039;</label>
+                        <label for="img-4" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-4" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="img/anuncio3.jpeg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-3" class="prev">&#x2039;</label>
+                        <label for="img-5" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-5" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="img/anuncio4.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-4" class="prev">&#x2039;</label>
+                        <label for="img-1" class="next">&#x203a;</label>
+                    </div>
+                </li>
+    
+                <li class="nav-dots">
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                    <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                    <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                </li>
+            </ul>
+
+        <script src="js/rellax.min.js"></script>
+        <script src="js/index.js"></script>
+
+        <footer>
+            <p>
+                Autor: Dante Uriel P&eacute;rez Flores | UACJ - HTML5 | Visita la Pagina Oficial de <a href="https://www.ubisoft.com/es-mx/">Ubisoft</a>  aqui mismo
+            </p>
+        </footer>
+    </body>
+</html>
